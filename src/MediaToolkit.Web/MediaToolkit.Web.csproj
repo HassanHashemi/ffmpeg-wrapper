@@ -3,7 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.25</Version>
+    <Version>1.0.1</Version>
+    <AssemblyName>MediaToolkit.Web</AssemblyName>
+    <PackageId>FFmpegWrapper.Web</PackageId>
+    <Authors>FFmpegWrapper.Web</Authors>
+    <Company>FFmpegWrapper.Web</Company>
+    <Product>FFmpegWrapper.Web</Product>
   </PropertyGroup>
 
   <ItemGroup>

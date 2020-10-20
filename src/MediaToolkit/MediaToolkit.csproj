@@ -4,7 +4,11 @@
     <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.25</Version>
+    <Version>1.0.1</Version>
+    <PackageId>FFmpegWrapper</PackageId>
+    <Authors>FFmpegWrapper</Authors>
+    <Company>FFmpegWrapper</Company>
+    <Product>FFmpegWrapper</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
@@ -18,8 +22,8 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Extensions" Version="1.0.36" />
-    <PackageReference Include="TebyanValidation" Version="0.0.21" />
+    <PackageReference Include="H.Extensions" Version="1.0.42" />
+    <PackageReference Include="ArgsValidation" Version="0.0.2" />
   </ItemGroup>
 
   <ItemGroup>
